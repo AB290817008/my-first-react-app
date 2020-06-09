@@ -40,4 +40,4 @@ jobs:
       run: npm installing -g surge
     
     - name: deploying on surge
-      run: surge ./build http://scary-dime.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
+      run: surge ./build http://scary-dime.surge.sh --token ${{secrets.SURGE_TOKEN}} 
